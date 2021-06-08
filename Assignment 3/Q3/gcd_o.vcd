@@ -1,0 +1,153 @@
+$date
+	Sun Apr  4 11:11:43 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module gcd $end
+$var wire 5 ! zr [4:0] $end
+$var wire 5 " z [4:0] $end
+$var wire 5 # yr [4:0] $end
+$var wire 5 $ xr [4:0] $end
+$var wire 5 % tempr [4:0] $end
+$var wire 1 & c $end
+$var wire 1 ' b $end
+$var wire 1 ( a $end
+$var wire 5 ) Z [4:0] $end
+$var reg 1 * clk $end
+$var reg 1 + reset $end
+$var reg 5 , x [4:0] $end
+$var reg 5 - y [4:0] $end
+$scope module first $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 5 . x [4:0] $end
+$var wire 5 / y [4:0] $end
+$var wire 5 0 z [4:0] $end
+$var wire 1 & c $end
+$var wire 1 ' b $end
+$var wire 1 ( a $end
+$var reg 5 1 Z [4:0] $end
+$var reg 5 2 tempr [4:0] $end
+$var reg 5 3 xr [4:0] $end
+$var reg 5 4 yr [4:0] $end
+$var reg 5 5 zr [4:0] $end
+$upscope $end
+$scope module second $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 1 6 x $end
+$var wire 1 7 y $end
+$var reg 1 ( a $end
+$var reg 1 ' b $end
+$var reg 1 & c $end
+$var reg 1 8 t $end
+$var reg 5 9 z [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11100 9
+x8
+17
+16
+b10000 5
+b10000 4
+b11000 3
+bx 2
+bx 1
+b11100 0
+b10000 /
+b11000 .
+b10000 -
+b11000 ,
+x+
+0*
+bx )
+0(
+0'
+1&
+bx %
+b11000 $
+b10000 #
+b11100 "
+b10000 !
+$end
+#5000
+07
+b1000 $
+b1000 3
+0&
+b1001 "
+b1001 0
+b1001 9
+1(
+08
+1*
+#10000
+0*
+#15000
+b1000 !
+b1000 5
+b10000 $
+b10000 3
+17
+b1000 #
+b1000 4
+b10000 %
+b10000 2
+1&
+b11010 "
+b11010 0
+b11010 9
+0(
+1'
+1*
+#20000
+0*
+#25000
+b1000 $
+b1000 3
+0&
+b1001 "
+b1001 0
+b1001 9
+1(
+0'
+18
+1*
+#30000
+0*
+#35000
+07
+06
+b0 $
+b0 3
+1&
+08
+1*
+#40000
+0*
+#45000
+b1000 )
+b1000 1
+0&
+b0 "
+b0 0
+b0 9
+1'
+1*
+#50000
+0*
+#55000
+1&
+b1001 "
+b1001 0
+b1001 9
+0'
+18
+1*

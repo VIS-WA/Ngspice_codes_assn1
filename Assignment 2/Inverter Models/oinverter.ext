@@ -1,0 +1,24 @@
+timestamp 1613729060
+version 8.2
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+node "gnd" 28 145.69 -1 -33 ndc 100 50 0 0 0 0 0 0 0 0 0 0 0 0 224 120 0 0 0 0 0 0 0 0 0 0
+node "out" 104 79.5972 6 -33 ndif 100 50 250 110 0 0 0 0 0 0 0 0 0 0 372 194 0 0 0 0 0 0 0 0 0 0
+node "vdd" 77 33.066 -1 1 pdc 0 0 250 110 0 0 0 0 0 0 0 0 0 0 328 172 0 0 0 0 0 0 0 0 0 0
+node "in" 347 157.465 0 -10 pc 0 0 0 0 0 0 0 0 0 0 196 192 0 0 64 40 0 0 0 0 0 0 0 0 0 0
+node "w_n8_n5#" 2490 1682.37 -8 -5 nw 0 0 0 0 1675 184 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "gnd" "out" 206.19
+cap "gnd" "in" 54.984
+cap "out" "vdd" 539.04
+cap "out" "in" 54.984
+cap "vdd" "in" 23.5646
+cap "out" "w_n8_n5#" 73.7136
+cap "vdd" "w_n8_n5#" 129.613
+cap "w_n8_n5#" "in" 64.77
+fet nfet 4 -33 5 -32 40 44 "Gnd!" "in" 4 0 "gnd" 20 0 "out" 20 0
+fet pfet 4 1 5 2 100 104 "w_n8_n5#" "in" 4 0 "vdd" 50 0 "out" 50 0
+subcap "gnd" -19.803
+subcap "out" -14.1168
+subcap "in" -39.9988

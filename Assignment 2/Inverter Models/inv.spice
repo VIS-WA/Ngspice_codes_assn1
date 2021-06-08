@@ -1,0 +1,497 @@
+* SPICE3 file created from inv.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 oinverter_0[1]/in oinverter_0[0]/in oinverter_1[0]/vdd oinverter_1[0]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1001 oinverter_0[1]/in oinverter_0[0]/in oinverter_0[0]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1002 oinverter_0[2]/in oinverter_0[1]/in oinverter_1[1]/vdd oinverter_1[1]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1003 oinverter_0[2]/in oinverter_0[1]/in oinverter_0[1]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1004 oinverter_0[3]/in oinverter_0[2]/in oinverter_1[2]/vdd oinverter_1[2]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1005 oinverter_0[3]/in oinverter_0[2]/in oinverter_0[2]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1006 oinverter_0[4]/in oinverter_0[3]/in oinverter_1[3]/vdd oinverter_1[3]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1007 oinverter_0[4]/in oinverter_0[3]/in oinverter_0[3]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1008 oinverter_0[5]/in oinverter_0[4]/in oinverter_1[4]/vdd oinverter_1[4]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1009 oinverter_0[5]/in oinverter_0[4]/in oinverter_0[4]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1010 oinverter_0[6]/in oinverter_0[5]/in oinverter_1[5]/vdd oinverter_1[5]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1011 oinverter_0[6]/in oinverter_0[5]/in oinverter_0[5]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1012 oinverter_0[7]/in oinverter_0[6]/in oinverter_1[6]/vdd oinverter_1[6]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1013 oinverter_0[7]/in oinverter_0[6]/in oinverter_0[6]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1014 oinverter_0[8]/in oinverter_0[7]/in oinverter_1[7]/vdd oinverter_1[7]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1015 oinverter_0[8]/in oinverter_0[7]/in oinverter_0[7]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1016 oinverter_0[9]/in oinverter_0[8]/in oinverter_1[8]/vdd oinverter_1[8]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1017 oinverter_0[9]/in oinverter_0[8]/in oinverter_0[8]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1018 oinverter_0[9]/out oinverter_0[9]/in oinverter_1[9]/vdd oinverter_1[9]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1019 oinverter_0[9]/out oinverter_0[9]/in oinverter_0[9]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1020 oinverter_0[11]/in oinverter_0[9]/out oinverter_1[10]/vdd oinverter_1[10]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1021 oinverter_0[11]/in oinverter_0[9]/out oinverter_0[10]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1022 oinverter_0[12]/in oinverter_0[11]/in oinverter_1[11]/vdd oinverter_1[11]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1023 oinverter_0[12]/in oinverter_0[11]/in oinverter_0[11]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1024 oinverter_0[13]/in oinverter_0[12]/in oinverter_1[12]/vdd oinverter_1[12]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1025 oinverter_0[13]/in oinverter_0[12]/in oinverter_0[12]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1026 oinverter_0[14]/in oinverter_0[13]/in oinverter_1[13]/vdd oinverter_1[13]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1027 oinverter_0[14]/in oinverter_0[13]/in oinverter_0[13]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1028 oinverter_1[15]/in oinverter_0[14]/in oinverter_1[14]/vdd oinverter_1[14]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=500 ps=220
+M1029 oinverter_1[15]/in oinverter_0[14]/in oinverter_0[14]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1030 oinverter_0[0]/in oinverter_1[0]/in oinverter_1[0]/vdd oinverter_1[0]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1031 oinverter_0[0]/in oinverter_1[0]/in oinverter_1[0]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1032 oinverter_1[0]/in oinverter_1[1]/in oinverter_1[1]/vdd oinverter_1[1]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1033 oinverter_1[0]/in oinverter_1[1]/in oinverter_1[1]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1034 oinverter_1[1]/in oinverter_1[2]/in oinverter_1[2]/vdd oinverter_1[2]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1035 oinverter_1[1]/in oinverter_1[2]/in oinverter_1[2]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1036 oinverter_1[2]/in oinverter_1[3]/in oinverter_1[3]/vdd oinverter_1[3]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1037 oinverter_1[2]/in oinverter_1[3]/in oinverter_1[3]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1038 oinverter_1[3]/in oinverter_1[4]/in oinverter_1[4]/vdd oinverter_1[4]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1039 oinverter_1[3]/in oinverter_1[4]/in oinverter_1[4]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1040 oinverter_1[4]/in oinverter_1[5]/in oinverter_1[5]/vdd oinverter_1[5]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1041 oinverter_1[4]/in oinverter_1[5]/in oinverter_1[5]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1042 oinverter_1[5]/in oinverter_1[6]/in oinverter_1[6]/vdd oinverter_1[6]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1043 oinverter_1[5]/in oinverter_1[6]/in oinverter_1[6]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1044 oinverter_1[6]/in oinverter_1[7]/in oinverter_1[7]/vdd oinverter_1[7]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1045 oinverter_1[6]/in oinverter_1[7]/in oinverter_1[7]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1046 oinverter_1[7]/in oinverter_1[8]/in oinverter_1[8]/vdd oinverter_1[8]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1047 oinverter_1[7]/in oinverter_1[8]/in oinverter_1[8]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1048 oinverter_1[8]/in oinverter_1[9]/in oinverter_1[9]/vdd oinverter_1[9]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1049 oinverter_1[8]/in oinverter_1[9]/in oinverter_1[9]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1050 oinverter_1[9]/in oinverter_1[10]/in oinverter_1[10]/vdd oinverter_1[10]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1051 oinverter_1[9]/in oinverter_1[10]/in oinverter_1[10]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1052 oinverter_1[10]/in oinverter_1[11]/in oinverter_1[11]/vdd oinverter_1[11]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1053 oinverter_1[10]/in oinverter_1[11]/in oinverter_1[11]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1054 oinverter_1[11]/in oinverter_1[12]/in oinverter_1[12]/vdd oinverter_1[12]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1055 oinverter_1[11]/in oinverter_1[12]/in oinverter_1[12]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1056 oinverter_1[12]/in oinverter_1[13]/in oinverter_1[13]/vdd oinverter_1[13]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1057 oinverter_1[12]/in oinverter_1[13]/in oinverter_1[13]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1058 oinverter_1[13]/in oinverter_1[14]/in oinverter_1[14]/vdd oinverter_1[14]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=0 ps=0
+M1059 oinverter_1[13]/in oinverter_1[14]/in oinverter_1[14]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1060 oinverter_1[14]/in oinverter_1[15]/in oinverter_1[15]/vdd oinverter_1[15]/w_n8_n5# pfet w=50 l=2
++  ad=250 pd=110 as=250 ps=110
+M1061 oinverter_1[14]/in oinverter_1[15]/in oinverter_1[15]/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+C0 oinverter_1[2]/in oinverter_1[2]/vdd 0.02fF
+C1 oinverter_1[4]/in oinverter_1[5]/w_n8_n5# 0.07fF
+C2 oinverter_1[3]/gnd oinverter_1[2]/gnd 0.02fF
+C3 oinverter_0[8]/in oinverter_0[8]/gnd 0.05fF
+C4 oinverter_1[3]/in oinverter_1[4]/w_n8_n5# 0.07fF
+C5 oinverter_0[2]/in oinverter_0[2]/gnd 0.05fF
+C6 oinverter_1[4]/in oinverter_1[5]/gnd 0.21fF
+C7 oinverter_1[6]/vdd oinverter_1[7]/vdd 0.05fF
+C8 oinverter_1[15]/gnd oinverter_1[15]/in 0.05fF
+C9 oinverter_1[14]/in oinverter_1[15]/vdd 0.54fF
+C10 oinverter_0[3]/in oinverter_1[3]/vdd 0.02fF
+C11 oinverter_0[0]/in oinverter_0[0]/gnd 0.05fF
+C12 oinverter_1[7]/in oinverter_1[8]/vdd 0.54fF
+C13 oinverter_1[13]/in oinverter_1[14]/vdd 0.54fF
+C14 oinverter_1[1]/w_n8_n5# oinverter_0[2]/in 0.07fF
+C15 oinverter_0[3]/gnd oinverter_0[3]/in 0.05fF
+C16 oinverter_1[3]/in oinverter_1[3]/gnd 0.05fF
+C17 oinverter_0[11]/in oinverter_0[11]/gnd 0.05fF
+C18 oinverter_0[9]/out oinverter_1[9]/w_n8_n5# 0.07fF
+C19 oinverter_0[9]/in oinverter_1[9]/w_n8_n5# 0.06fF
+C20 oinverter_1[10]/w_n8_n5# oinverter_1[10]/in 0.06fF
+C21 oinverter_0[5]/gnd oinverter_0[5]/in 0.05fF
+C22 oinverter_0[8]/in oinverter_1[7]/w_n8_n5# 0.07fF
+C23 oinverter_1[4]/gnd oinverter_1[4]/in 0.05fF
+C24 oinverter_1[1]/vdd oinverter_0[1]/in 0.02fF
+C25 oinverter_1[9]/vdd oinverter_1[9]/w_n8_n5# 0.26fF
+C26 oinverter_1[6]/in oinverter_1[7]/w_n8_n5# 0.07fF
+C27 oinverter_1[11]/in oinverter_1[12]/vdd 0.54fF
+C28 oinverter_1[6]/vdd oinverter_1[5]/vdd 0.05fF
+C29 oinverter_0[6]/in oinverter_0[5]/in 0.05fF
+C30 oinverter_1[9]/vdd oinverter_1[9]/in 0.02fF
+C31 oinverter_1[6]/gnd oinverter_1[5]/gnd 0.02fF
+C32 oinverter_1[2]/in oinverter_1[2]/gnd 0.05fF
+C33 oinverter_1[7]/gnd oinverter_1[6]/gnd 0.02fF
+C34 oinverter_1[13]/w_n8_n5# oinverter_1[12]/in 0.07fF
+C35 oinverter_1[8]/gnd oinverter_1[7]/gnd 0.02fF
+C36 oinverter_0[0]/gnd oinverter_0[1]/in 0.21fF
+C37 oinverter_1[14]/in oinverter_1[15]/in 0.05fF
+C38 oinverter_1[8]/vdd oinverter_1[7]/vdd 0.05fF
+C39 oinverter_1[9]/gnd oinverter_1[8]/gnd 0.02fF
+C40 oinverter_0[2]/in oinverter_0[1]/in 0.05fF
+C41 oinverter_1[4]/vdd oinverter_1[4]/in 0.02fF
+C42 oinverter_1[10]/w_n8_n5# oinverter_0[11]/in 0.07fF
+C43 oinverter_1[3]/in oinverter_1[2]/in 0.05fF
+C44 oinverter_1[10]/gnd oinverter_1[9]/gnd 0.02fF
+C45 oinverter_0[7]/gnd oinverter_0[7]/in 0.05fF
+C46 oinverter_1[4]/gnd oinverter_1[3]/in 0.21fF
+C47 oinverter_1[2]/w_n8_n5# oinverter_0[2]/in 0.06fF
+C48 oinverter_1[11]/gnd oinverter_1[10]/gnd 0.02fF
+C49 oinverter_1[5]/w_n8_n5# oinverter_1[5]/in 0.06fF
+C50 oinverter_0[4]/gnd oinverter_0[4]/in 0.05fF
+C51 oinverter_1[12]/gnd oinverter_1[11]/gnd 0.02fF
+C52 oinverter_0[6]/in oinverter_1[5]/w_n8_n5# 0.07fF
+C53 oinverter_1[14]/w_n8_n5# oinverter_1[13]/in 0.07fF
+C54 oinverter_0[12]/in oinverter_1[11]/vdd 0.54fF
+C55 oinverter_1[6]/w_n8_n5# oinverter_1[6]/in 0.06fF
+C56 oinverter_1[5]/in oinverter_1[5]/gnd 0.05fF
+C57 oinverter_0[3]/in oinverter_0[2]/in 0.05fF
+C58 oinverter_1[13]/gnd oinverter_1[12]/gnd 0.02fF
+C59 oinverter_1[10]/vdd oinverter_0[9]/out 0.02fF
+C60 oinverter_0[10]/gnd oinverter_0[9]/out 0.05fF
+C61 oinverter_1[15]/in oinverter_0[14]/gnd 0.21fF
+C62 oinverter_0[7]/gnd oinverter_0[8]/gnd 0.02fF
+C63 oinverter_1[13]/vdd oinverter_1[13]/in 0.02fF
+C64 oinverter_1[6]/in oinverter_1[6]/gnd 0.05fF
+C65 oinverter_1[14]/gnd oinverter_1[13]/gnd 0.02fF
+C66 oinverter_1[9]/vdd oinverter_1[10]/vdd 0.05fF
+C67 oinverter_1[4]/vdd oinverter_0[4]/in 0.02fF
+C68 oinverter_1[7]/in oinverter_1[7]/gnd 0.05fF
+C69 oinverter_1[15]/gnd oinverter_1[14]/gnd 0.02fF
+C70 oinverter_1[15]/vdd oinverter_1[15]/in 0.06fF
+C71 oinverter_1[14]/in oinverter_1[15]/w_n8_n5# 0.07fF
+C72 oinverter_0[7]/in oinverter_1[7]/w_n8_n5# 0.06fF
+C73 oinverter_1[8]/in oinverter_1[8]/gnd 0.05fF
+C74 oinverter_1[13]/w_n8_n5# oinverter_0[13]/in 0.06fF
+C75 oinverter_1[0]/w_n8_n5# oinverter_1[0]/vdd 0.26fF
+C76 oinverter_0[14]/in oinverter_0[13]/gnd 0.21fF
+C77 oinverter_1[4]/vdd oinverter_1[3]/in 0.54fF
+C78 oinverter_1[9]/in oinverter_1[9]/gnd 0.05fF
+C79 oinverter_1[2]/in oinverter_1[2]/w_n8_n5# 0.06fF
+C80 oinverter_0[5]/gnd oinverter_0[4]/gnd 0.02fF
+C81 oinverter_1[5]/vdd oinverter_0[5]/in 0.02fF
+C82 oinverter_1[10]/in oinverter_1[10]/gnd 0.05fF
+C83 oinverter_0[9]/in oinverter_1[8]/vdd 0.54fF
+C84 oinverter_1[1]/in oinverter_1[2]/vdd 0.54fF
+C85 oinverter_1[9]/vdd oinverter_1[8]/vdd 0.05fF
+C86 oinverter_1[11]/in oinverter_1[11]/gnd 0.05fF
+C87 oinverter_0[12]/gnd oinverter_0[11]/gnd 0.02fF
+C88 oinverter_1[12]/in oinverter_1[12]/gnd 0.05fF
+C89 oinverter_1[11]/in oinverter_1[11]/vdd 0.02fF
+C90 oinverter_0[9]/in oinverter_0[9]/out 0.05fF
+C91 oinverter_1[14]/w_n8_n5# oinverter_1[14]/vdd 0.26fF
+C92 oinverter_1[6]/in oinverter_1[5]/in 0.05fF
+C93 oinverter_1[13]/in oinverter_1[13]/gnd 0.05fF
+C94 oinverter_1[9]/vdd oinverter_0[9]/out 0.54fF
+C95 oinverter_0[9]/in oinverter_1[9]/vdd 0.02fF
+C96 oinverter_1[12]/w_n8_n5# oinverter_1[12]/in 0.06fF
+C97 oinverter_1[11]/w_n8_n5# oinverter_1[11]/vdd 0.26fF
+C98 oinverter_1[7]/in oinverter_1[6]/in 0.05fF
+C99 oinverter_1[15]/vdd oinverter_1[15]/w_n8_n5# 0.13fF
+C100 oinverter_1[14]/in oinverter_1[14]/gnd 0.05fF
+C101 oinverter_1[8]/in oinverter_1[9]/w_n8_n5# 0.07fF
+C102 oinverter_1[13]/vdd oinverter_1[14]/vdd 0.05fF
+C103 oinverter_0[9]/gnd oinverter_0[8]/gnd 0.02fF
+C104 oinverter_1[8]/in oinverter_1[7]/in 0.05fF
+C105 oinverter_0[12]/gnd oinverter_0[13]/in 0.21fF
+C106 oinverter_1[6]/w_n8_n5# oinverter_0[7]/in 0.07fF
+C107 oinverter_1[9]/in oinverter_1[8]/in 0.05fF
+C108 oinverter_1[5]/vdd oinverter_1[5]/w_n8_n5# 0.26fF
+C109 oinverter_0[6]/gnd oinverter_0[7]/in 0.21fF
+C110 oinverter_0[12]/in oinverter_0[11]/gnd 0.21fF
+C111 oinverter_0[11]/in oinverter_0[12]/in 0.05fF
+C112 oinverter_0[5]/in oinverter_1[4]/w_n8_n5# 0.07fF
+C113 oinverter_1[10]/in oinverter_1[9]/in 0.05fF
+C114 oinverter_1[1]/in oinverter_1[2]/gnd 0.21fF
+C115 oinverter_1[13]/vdd oinverter_1[12]/vdd 0.05fF
+C116 oinverter_1[11]/in oinverter_1[10]/in 0.05fF
+C117 oinverter_1[2]/in oinverter_1[3]/vdd 0.54fF
+C118 oinverter_0[2]/in oinverter_1[1]/vdd 0.54fF
+C119 oinverter_0[0]/in oinverter_1[0]/w_n8_n5# 0.14fF
+C120 oinverter_0[7]/gnd oinverter_0[6]/gnd 0.02fF
+C121 oinverter_1[0]/w_n8_n5# oinverter_1[0]/in 0.06fF
+C122 oinverter_1[12]/in oinverter_1[11]/in 0.05fF
+C123 oinverter_1[1]/w_n8_n5# oinverter_1[1]/in 0.06fF
+C124 oinverter_0[4]/in oinverter_1[3]/w_n8_n5# 0.07fF
+C125 oinverter_1[11]/w_n8_n5# oinverter_1[10]/in 0.07fF
+C126 oinverter_0[14]/in oinverter_1[14]/vdd 0.02fF
+C127 oinverter_1[10]/vdd oinverter_1[11]/vdd 0.05fF
+C128 oinverter_0[12]/in oinverter_0[13]/in 0.05fF
+C129 oinverter_1[1]/in oinverter_1[0]/in 0.05fF
+C130 oinverter_1[13]/in oinverter_1[12]/in 0.05fF
+C131 oinverter_1[8]/w_n8_n5# oinverter_1[7]/in 0.07fF
+C132 oinverter_1[6]/vdd oinverter_1[6]/in 0.02fF
+C133 oinverter_0[8]/in oinverter_1[7]/vdd 0.54fF
+C134 oinverter_1[3]/in oinverter_1[3]/w_n8_n5# 0.06fF
+C135 oinverter_1[15]/in oinverter_1[15]/w_n8_n5# 0.06fF
+C136 oinverter_1[14]/in oinverter_1[13]/in 0.05fF
+C137 oinverter_1[6]/in oinverter_1[7]/vdd 0.54fF
+C138 oinverter_1[12]/w_n8_n5# oinverter_0[13]/in 0.07fF
+C139 oinverter_0[5]/in oinverter_1[5]/w_n8_n5# 0.06fF
+C140 oinverter_0[13]/gnd oinverter_0[14]/gnd 0.02fF
+C141 oinverter_0[3]/gnd oinverter_0[4]/gnd 0.02fF
+C142 oinverter_0[6]/in oinverter_0[7]/in 0.05fF
+C143 oinverter_1[4]/vdd oinverter_1[3]/vdd 0.05fF
+C144 oinverter_1[0]/w_n8_n5# oinverter_0[1]/in 0.07fF
+C145 oinverter_0[0]/in oinverter_1[0]/vdd 0.66fF
+C146 oinverter_1[12]/vdd oinverter_1[11]/vdd 0.05fF
+C147 oinverter_1[10]/vdd oinverter_1[10]/in 0.02fF
+C148 oinverter_0[13]/gnd oinverter_0[13]/in 0.05fF
+C149 oinverter_1[0]/in oinverter_1[0]/vdd 0.02fF
+C150 oinverter_1[4]/vdd oinverter_1[5]/vdd 0.05fF
+C151 oinverter_0[11]/in oinverter_1[11]/w_n8_n5# 0.06fF
+C152 oinverter_0[8]/in oinverter_1[8]/vdd 0.02fF
+C153 oinverter_1[1]/in oinverter_1[2]/w_n8_n5# 0.07fF
+C154 oinverter_0[1]/gnd oinverter_0[2]/gnd 0.02fF
+C155 oinverter_1[0]/gnd oinverter_0[0]/in 0.21fF
+C156 oinverter_1[0]/gnd oinverter_1[0]/in 0.05fF
+C157 oinverter_1[8]/in oinverter_1[8]/vdd 0.02fF
+C158 oinverter_1[14]/in oinverter_1[14]/vdd 0.02fF
+C159 oinverter_1[3]/gnd oinverter_1[2]/in 0.21fF
+C160 oinverter_1[10]/w_n8_n5# oinverter_1[9]/in 0.07fF
+C161 oinverter_0[9]/in oinverter_0[8]/in 0.05fF
+C162 oinverter_1[14]/w_n8_n5# oinverter_0[14]/in 0.06fF
+C163 oinverter_0[5]/in oinverter_0[4]/gnd 0.21fF
+C164 oinverter_1[4]/gnd oinverter_1[3]/gnd 0.02fF
+C165 oinverter_1[4]/in oinverter_1[3]/in 0.05fF
+C166 oinverter_0[3]/in oinverter_1[3]/w_n8_n5# 0.06fF
+C167 oinverter_1[6]/vdd oinverter_0[7]/in 0.54fF
+C168 oinverter_0[14]/in oinverter_1[13]/vdd 0.54fF
+C169 oinverter_0[10]/gnd oinverter_0[11]/gnd 0.02fF
+C170 oinverter_1[7]/in oinverter_1[7]/w_n8_n5# 0.06fF
+C171 oinverter_0[11]/in oinverter_1[10]/vdd 0.54fF
+C172 oinverter_0[10]/gnd oinverter_0[11]/in 0.21fF
+C173 oinverter_1[0]/vdd oinverter_0[1]/in 0.54fF
+C174 oinverter_1[12]/in oinverter_1[12]/vdd 0.02fF
+C175 oinverter_0[7]/in oinverter_1[7]/vdd 0.02fF
+C176 oinverter_1[9]/vdd oinverter_1[8]/in 0.54fF
+C177 oinverter_1[4]/vdd oinverter_0[5]/in 0.54fF
+C178 oinverter_1[4]/vdd oinverter_1[4]/w_n8_n5# 0.26fF
+C179 oinverter_0[12]/gnd oinverter_0[12]/in 0.05fF
+C180 oinverter_1[1]/in oinverter_1[1]/gnd 0.05fF
+C181 oinverter_1[8]/w_n8_n5# oinverter_1[8]/vdd 0.26fF
+C182 oinverter_1[2]/w_n8_n5# oinverter_1[2]/vdd 0.26fF
+C183 oinverter_1[13]/w_n8_n5# oinverter_1[13]/in 0.06fF
+C184 oinverter_1[1]/w_n8_n5# oinverter_1[0]/in 0.07fF
+C185 oinverter_1[4]/gnd oinverter_1[5]/gnd 0.02fF
+C186 oinverter_1[4]/in oinverter_1[5]/in 0.05fF
+C187 oinverter_0[0]/in oinverter_1[0]/in 0.05fF
+C188 oinverter_1[15]/vdd oinverter_1[14]/vdd 0.02fF
+C189 oinverter_0[9]/in oinverter_1[8]/w_n8_n5# 0.07fF
+C190 oinverter_0[1]/gnd oinverter_0[1]/in 0.05fF
+C191 oinverter_0[3]/in oinverter_1[2]/vdd 0.54fF
+C192 oinverter_1[3]/vdd oinverter_1[3]/w_n8_n5# 0.26fF
+C193 oinverter_1[10]/w_n8_n5# oinverter_1[10]/vdd 0.26fF
+C194 oinverter_0[6]/gnd oinverter_0[5]/gnd 0.02fF
+C195 oinverter_0[11]/in oinverter_0[9]/out 0.05fF
+C196 oinverter_1[6]/w_n8_n5# oinverter_1[5]/in 0.07fF
+C197 oinverter_1[7]/w_n8_n5# oinverter_1[7]/vdd 0.26fF
+C198 oinverter_0[13]/gnd oinverter_0[12]/gnd 0.02fF
+C199 oinverter_0[6]/in oinverter_1[6]/w_n8_n5# 0.06fF
+C200 oinverter_1[14]/w_n8_n5# oinverter_1[14]/in 0.06fF
+C201 oinverter_1[13]/vdd oinverter_1[12]/in 0.54fF
+C202 oinverter_0[6]/in oinverter_0[6]/gnd 0.05fF
+C203 oinverter_1[6]/gnd oinverter_1[5]/in 0.21fF
+C204 oinverter_1[12]/vdd oinverter_0[13]/in 0.54fF
+C205 oinverter_1[12]/w_n8_n5# oinverter_0[12]/in 0.06fF
+C206 oinverter_1[7]/gnd oinverter_1[6]/in 0.21fF
+C207 oinverter_1[1]/w_n8_n5# oinverter_0[1]/in 0.06fF
+C208 oinverter_0[0]/in oinverter_0[1]/in 0.05fF
+C209 oinverter_1[8]/gnd oinverter_1[7]/in 0.21fF
+C210 oinverter_1[0]/gnd oinverter_1[1]/gnd 0.02fF
+C211 oinverter_1[15]/in oinverter_1[14]/vdd 0.54fF
+C212 oinverter_1[9]/gnd oinverter_1[8]/in 0.21fF
+C213 oinverter_1[1]/in oinverter_1[1]/vdd 0.02fF
+C214 oinverter_1[3]/vdd oinverter_1[2]/vdd 0.05fF
+C215 oinverter_0[3]/in oinverter_0[2]/gnd 0.21fF
+C216 oinverter_1[10]/gnd oinverter_1[9]/in 0.21fF
+C217 oinverter_0[9]/in oinverter_0[8]/gnd 0.21fF
+C218 oinverter_0[9]/gnd oinverter_0[10]/gnd 0.02fF
+C219 oinverter_1[10]/w_n8_n5# oinverter_0[9]/out 0.06fF
+C220 oinverter_0[3]/in oinverter_0[4]/in 0.05fF
+C221 oinverter_1[11]/gnd oinverter_1[10]/in 0.21fF
+C222 oinverter_1[12]/gnd oinverter_1[11]/in 0.21fF
+C223 oinverter_1[6]/vdd oinverter_1[6]/w_n8_n5# 0.26fF
+C224 oinverter_0[6]/in oinverter_0[5]/gnd 0.21fF
+C225 oinverter_1[10]/in oinverter_1[11]/vdd 0.54fF
+C226 oinverter_1[2]/gnd oinverter_1[1]/gnd 0.02fF
+C227 oinverter_1[13]/gnd oinverter_1[12]/in 0.21fF
+C228 oinverter_1[11]/w_n8_n5# oinverter_0[12]/in 0.07fF
+C229 oinverter_1[4]/in oinverter_1[5]/vdd 0.54fF
+C230 oinverter_1[12]/w_n8_n5# oinverter_1[11]/in 0.07fF
+C231 oinverter_1[14]/gnd oinverter_1[13]/in 0.21fF
+C232 oinverter_1[13]/vdd oinverter_0[13]/in 0.02fF
+C233 oinverter_1[1]/vdd oinverter_1[0]/vdd 0.05fF
+C234 oinverter_1[15]/gnd oinverter_1[14]/in 0.21fF
+C235 oinverter_1[9]/in oinverter_1[9]/w_n8_n5# 0.06fF
+C236 oinverter_1[0]/in oinverter_1[1]/gnd 0.21fF
+C237 oinverter_1[1]/vdd oinverter_1[2]/vdd 0.05fF
+C238 oinverter_0[14]/in oinverter_0[14]/gnd 0.05fF
+C239 oinverter_0[9]/gnd oinverter_0[9]/out 0.21fF
+C240 oinverter_0[9]/gnd oinverter_0[9]/in 0.05fF
+C241 oinverter_1[3]/vdd oinverter_0[4]/in 0.54fF
+C242 oinverter_0[3]/gnd oinverter_0[2]/gnd 0.02fF
+C243 oinverter_0[11]/in oinverter_1[11]/vdd 0.02fF
+C244 oinverter_1[14]/w_n8_n5# oinverter_1[15]/in 0.07fF
+C245 oinverter_0[3]/gnd oinverter_0[4]/in 0.21fF
+C246 oinverter_1[3]/in oinverter_1[3]/vdd 0.02fF
+C247 oinverter_0[14]/in oinverter_0[13]/in 0.05fF
+C248 oinverter_0[8]/in oinverter_1[8]/w_n8_n5# 0.06fF
+C249 oinverter_0[3]/in oinverter_1[2]/w_n8_n5# 0.07fF
+C250 oinverter_1[6]/vdd oinverter_1[5]/in 0.54fF
+C251 oinverter_1[2]/in oinverter_1[1]/in 0.05fF
+C252 oinverter_1[11]/w_n8_n5# oinverter_1[11]/in 0.06fF
+C253 oinverter_0[6]/in oinverter_1[6]/vdd 0.02fF
+C254 oinverter_0[2]/in oinverter_1[2]/vdd 0.02fF
+C255 oinverter_1[4]/in oinverter_1[4]/w_n8_n5# 0.06fF
+C256 oinverter_1[2]/in oinverter_1[3]/w_n8_n5# 0.07fF
+C257 oinverter_1[13]/vdd oinverter_1[13]/w_n8_n5# 0.26fF
+C258 oinverter_1[8]/w_n8_n5# oinverter_1[8]/in 0.06fF
+C259 oinverter_1[7]/in oinverter_1[7]/vdd 0.02fF
+C260 oinverter_0[1]/gnd oinverter_0[0]/gnd 0.02fF
+C261 oinverter_0[8]/in oinverter_0[7]/in 0.05fF
+C262 oinverter_1[1]/w_n8_n5# oinverter_1[1]/vdd 0.26fF
+C263 oinverter_0[12]/in oinverter_1[12]/vdd 0.02fF
+C264 oinverter_0[1]/gnd oinverter_0[2]/in 0.21fF
+C265 oinverter_1[0]/in oinverter_1[1]/vdd 0.54fF
+C266 oinverter_1[5]/vdd oinverter_1[5]/in 0.02fF
+C267 oinverter_1[10]/vdd oinverter_1[9]/in 0.54fF
+C268 oinverter_0[5]/in oinverter_0[4]/in 0.05fF
+C269 oinverter_0[6]/in oinverter_1[5]/vdd 0.54fF
+C270 oinverter_0[14]/in oinverter_1[15]/in 0.05fF
+C271 oinverter_0[4]/in oinverter_1[4]/w_n8_n5# 0.06fF
+C272 oinverter_0[14]/in oinverter_1[13]/w_n8_n5# 0.07fF
+C273 oinverter_0[8]/in oinverter_0[7]/gnd 0.21fF
+C274 oinverter_1[12]/w_n8_n5# oinverter_1[12]/vdd 0.26fF
+C275 oinverter_1[15]/gnd Gnd 0.13fF
+C276 oinverter_1[14]/in Gnd 0.18fF
+C277 oinverter_1[15]/vdd Gnd 0.03fF
+C278 oinverter_1[15]/in Gnd 0.31fF
+C279 oinverter_1[15]/w_n8_n5# Gnd 1.68fF
+C280 oinverter_1[14]/gnd Gnd 0.13fF
+C281 oinverter_1[13]/in Gnd 0.18fF
+C282 oinverter_1[13]/gnd Gnd 0.13fF
+C283 oinverter_1[12]/in Gnd 0.18fF
+C284 oinverter_1[12]/gnd Gnd 0.13fF
+C285 oinverter_1[11]/in Gnd 0.18fF
+C286 oinverter_1[11]/gnd Gnd 0.13fF
+C287 oinverter_1[10]/in Gnd 0.18fF
+C288 oinverter_1[10]/gnd Gnd 0.13fF
+C289 oinverter_1[9]/in Gnd 0.18fF
+C290 oinverter_1[9]/gnd Gnd 0.13fF
+C291 oinverter_1[8]/in Gnd 0.18fF
+C292 oinverter_1[8]/gnd Gnd 0.13fF
+C293 oinverter_1[7]/in Gnd 0.18fF
+C294 oinverter_1[7]/gnd Gnd 0.13fF
+C295 oinverter_1[6]/in Gnd 0.18fF
+C296 oinverter_1[6]/gnd Gnd 0.13fF
+C297 oinverter_1[5]/in Gnd 0.18fF
+C298 oinverter_1[5]/gnd Gnd 0.13fF
+C299 oinverter_1[4]/in Gnd 0.18fF
+C300 oinverter_1[4]/gnd Gnd 0.13fF
+C301 oinverter_1[3]/in Gnd 0.18fF
+C302 oinverter_1[3]/gnd Gnd 0.13fF
+C303 oinverter_1[2]/in Gnd 0.18fF
+C304 oinverter_1[2]/gnd Gnd 0.13fF
+C305 oinverter_1[1]/in Gnd 0.18fF
+C306 oinverter_1[1]/gnd Gnd 0.13fF
+C307 oinverter_1[0]/in Gnd 0.18fF
+C308 oinverter_1[0]/gnd Gnd 0.13fF
+C309 oinverter_0[0]/in Gnd 0.53fF
+C310 oinverter_0[14]/gnd Gnd 0.13fF
+C311 oinverter_1[14]/vdd Gnd 0.07fF
+C312 oinverter_0[14]/in Gnd 0.18fF
+C313 oinverter_1[14]/w_n8_n5# Gnd 3.36fF
+C314 oinverter_0[13]/gnd Gnd 0.13fF
+C315 oinverter_1[13]/vdd Gnd 0.07fF
+C316 oinverter_0[13]/in Gnd 0.18fF
+C317 oinverter_1[13]/w_n8_n5# Gnd 3.36fF
+C318 oinverter_0[12]/gnd Gnd 0.13fF
+C319 oinverter_1[12]/vdd Gnd 0.07fF
+C320 oinverter_0[12]/in Gnd 0.18fF
+C321 oinverter_1[12]/w_n8_n5# Gnd 3.36fF
+C322 oinverter_0[11]/gnd Gnd 0.13fF
+C323 oinverter_1[11]/vdd Gnd 0.07fF
+C324 oinverter_0[11]/in Gnd 0.18fF
+C325 oinverter_1[11]/w_n8_n5# Gnd 3.36fF
+C326 oinverter_0[10]/gnd Gnd 0.13fF
+C327 oinverter_1[10]/vdd Gnd 0.07fF
+C328 oinverter_0[9]/out Gnd 0.18fF
+C329 oinverter_1[10]/w_n8_n5# Gnd 3.36fF
+C330 oinverter_0[9]/gnd Gnd 0.13fF
+C331 oinverter_1[9]/vdd Gnd 0.07fF
+C332 oinverter_0[9]/in Gnd 0.18fF
+C333 oinverter_1[9]/w_n8_n5# Gnd 3.36fF
+C334 oinverter_0[8]/gnd Gnd 0.13fF
+C335 oinverter_1[8]/vdd Gnd 0.07fF
+C336 oinverter_0[8]/in Gnd 0.18fF
+C337 oinverter_1[8]/w_n8_n5# Gnd 3.36fF
+C338 oinverter_0[7]/gnd Gnd 0.13fF
+C339 oinverter_1[7]/vdd Gnd 0.07fF
+C340 oinverter_0[7]/in Gnd 0.18fF
+C341 oinverter_1[7]/w_n8_n5# Gnd 3.36fF
+C342 oinverter_0[6]/gnd Gnd 0.13fF
+C343 oinverter_1[6]/vdd Gnd 0.07fF
+C344 oinverter_0[6]/in Gnd 0.18fF
+C345 oinverter_1[6]/w_n8_n5# Gnd 3.36fF
+C346 oinverter_0[5]/gnd Gnd 0.13fF
+C347 oinverter_1[5]/vdd Gnd 0.07fF
+C348 oinverter_0[5]/in Gnd 0.18fF
+C349 oinverter_1[5]/w_n8_n5# Gnd 3.36fF
+C350 oinverter_0[4]/gnd Gnd 0.13fF
+C351 oinverter_1[4]/vdd Gnd 0.07fF
+C352 oinverter_0[4]/in Gnd 0.18fF
+C353 oinverter_1[4]/w_n8_n5# Gnd 3.36fF
+C354 oinverter_0[3]/gnd Gnd 0.13fF
+C355 oinverter_1[3]/vdd Gnd 0.07fF
+C356 oinverter_0[3]/in Gnd 0.18fF
+C357 oinverter_1[3]/w_n8_n5# Gnd 3.36fF
+C358 oinverter_0[2]/gnd Gnd 0.13fF
+C359 oinverter_1[2]/vdd Gnd 0.07fF
+C360 oinverter_0[2]/in Gnd 0.18fF
+C361 oinverter_1[2]/w_n8_n5# Gnd 3.36fF
+C362 oinverter_0[1]/gnd Gnd 0.13fF
+C363 oinverter_1[1]/vdd Gnd 0.07fF
+C364 oinverter_0[1]/in Gnd 0.18fF
+C365 oinverter_1[1]/w_n8_n5# Gnd 3.36fF
+C366 oinverter_0[0]/gnd Gnd 0.13fF
+C367 oinverter_1[0]/vdd Gnd 0.07fF
+C368 oinverter_1[0]/w_n8_n5# Gnd 3.36fF

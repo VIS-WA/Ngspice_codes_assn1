@@ -1,0 +1,20 @@
+* SPICE3 file created from oinverter.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 out in vdd w_n8_n5# pfet w=25 l=2
++  ad=125 pd=60 as=125 ps=60
+M1001 out in gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=50 ps=30
+C0 gnd in 0.05fF
+C1 out in 0.05fF
+C2 out w_n8_n5# 0.05fF
+C3 vdd w_n8_n5# 0.10fF
+C4 gnd out 0.10fF
+C5 out vdd 0.29fF
+C6 in w_n8_n5# 0.07fF
+C7 gnd Gnd 0.11fF
+C8 out Gnd 0.07fF
+C9 vdd Gnd 0.03fF
+C10 in Gnd 0.14fF
+C11 w_n8_n5# Gnd 1.00fF

@@ -1,0 +1,35 @@
+* SPICE3 file created from q3.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 inverter_0/out inverter_0/in inverter_0/vdd inverter_0/w_n8_n5# pfet w=8 l=2
++  ad=40 pd=26 as=40 ps=26
+M1001 inverter_0/out inverter_0/in inverter_0/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=20 ps=18
+M1002 inverter_0/in inverter_1/in inverter_1/vdd inverter_1/w_n8_n5# pfet w=8 l=2
++  ad=40 pd=26 as=40 ps=26
+M1003 inverter_0/in inverter_1/in inverter_1/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=20 ps=18
+C0 inverter_0/in inverter_1/in 0.05fF
+C1 inverter_0/w_n8_n5# inverter_0/out 0.03fF
+C2 inverter_1/w_n8_n5# inverter_1/in 0.07fF
+C3 inverter_0/w_n8_n5# inverter_0/in 0.07fF
+C4 inverter_0/in inverter_1/vdd 0.12fF
+C5 inverter_1/vdd inverter_1/w_n8_n5# 0.08fF
+C6 inverter_0/in inverter_1/gnd 0.08fF
+C7 inverter_1/gnd inverter_1/in 0.05fF
+C8 inverter_0/vdd inverter_0/out 0.12fF
+C9 inverter_0/out inverter_0/gnd 0.08fF
+C10 inverter_0/in inverter_0/out 0.05fF
+C11 inverter_0/in inverter_0/gnd 0.05fF
+C12 inverter_0/in inverter_1/w_n8_n5# 0.03fF
+C13 inverter_0/w_n8_n5# inverter_0/vdd 0.08fF
+C14 inverter_1/gnd Gnd 0.09fF
+C15 inverter_1/vdd Gnd 0.03fF
+C16 inverter_1/in Gnd 0.14fF
+C17 inverter_1/w_n8_n5# Gnd 0.55fF
+C18 inverter_0/gnd Gnd 0.09fF
+C19 inverter_0/out Gnd 0.06fF
+C20 inverter_0/vdd Gnd 0.03fF
+C21 inverter_0/in Gnd 0.23fF
+C22 inverter_0/w_n8_n5# Gnd 0.55fF
