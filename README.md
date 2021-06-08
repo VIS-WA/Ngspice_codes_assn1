@@ -1,1 +1,2 @@
-# Ngspice_codes_assn1
+# VLSI Design Course Assignments
+This repo contains assignment submissions. All assignments are based on ''' Verilog''' , 
